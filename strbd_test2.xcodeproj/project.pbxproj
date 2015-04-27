@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3641A41AE7936700430A04 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3641A31AE7936700430A04 /* ListTableViewCell.m */; };
 		BCB44A751AE63E2300324196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB44A741AE63E2300324196 /* main.m */; };
 		BCB44A781AE63E2300324196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB44A771AE63E2300324196 /* AppDelegate.m */; };
 		BCB44A7B1AE63E2300324196 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB44A7A1AE63E2300324196 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		BCB44A801AE63E2300324196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB44A7F1AE63E2300324196 /* Images.xcassets */; };
 		BCB44A831AE63E2300324196 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB44A811AE63E2300324196 /* LaunchScreen.xib */; };
 		BCB44A8F1AE63E2300324196 /* strbd_test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB44A8E1AE63E2300324196 /* strbd_test2Tests.m */; };
+		BCB44A9D1AE6477A00324196 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB44A9C1AE6477A00324196 /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC3641A21AE7936700430A04 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		BC3641A31AE7936700430A04 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 		BCB44A6F1AE63E2300324196 /* strbd_test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = strbd_test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB44A731AE63E2300324196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCB44A741AE63E2300324196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		BCB44A881AE63E2300324196 /* strbd_test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = strbd_test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB44A8D1AE63E2300324196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCB44A8E1AE63E2300324196 /* strbd_test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = strbd_test2Tests.m; sourceTree = "<group>"; };
+		BCB44A9B1AE6477A00324196 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		BCB44A9C1AE6477A00324196 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		BCB44A711AE63E2300324196 /* strbd_test2 */ = {
 			isa = PBXGroup;
 			children = (
+				BCB44A9B1AE6477A00324196 /* ListTableViewController.h */,
+				BCB44A9C1AE6477A00324196 /* ListTableViewController.m */,
 				BCB44A761AE63E2300324196 /* AppDelegate.h */,
 				BCB44A771AE63E2300324196 /* AppDelegate.m */,
 				BCB44A791AE63E2300324196 /* ViewController.h */,
@@ -89,6 +97,8 @@
 				BCB44A7F1AE63E2300324196 /* Images.xcassets */,
 				BCB44A811AE63E2300324196 /* LaunchScreen.xib */,
 				BCB44A721AE63E2300324196 /* Supporting Files */,
+				BC3641A21AE7936700430A04 /* ListTableViewCell.h */,
+				BC3641A31AE7936700430A04 /* ListTableViewCell.m */,
 			);
 			path = strbd_test2;
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 				BCB44A7B1AE63E2300324196 /* ViewController.m in Sources */,
 				BCB44A781AE63E2300324196 /* AppDelegate.m in Sources */,
 				BCB44A751AE63E2300324196 /* main.m in Sources */,
+				BCB44A9D1AE6477A00324196 /* ListTableViewController.m in Sources */,
+				BC3641A41AE7936700430A04 /* ListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				BCB44A941AE63E2300324196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCB44A951AE63E2300324196 /* Build configuration list for PBXNativeTarget "strbd_test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				BCB44A971AE63E2300324196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *hName;
+@property (weak, nonatomic) IBOutlet UITextField *dName;
+@property (weak, nonatomic) IBOutlet UITextField *uName;
+
+
+- (IBAction)okClicked:(id)sender;
 
 @end
 
